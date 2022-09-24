@@ -14,7 +14,7 @@ data "intersight_organization_organization" "org_moid" {
 # GUI Location: Policies > Create Policy > Ethernet Network Group
 #__________________________________________________________________
 
-resource "intersight_fabric_eth_network_group_policy" "vlan_group" {
+resource "intersight_fabric_eth_network_group_policy" "ethernet_network_group" {
   depends_on = [
     data.intersight_organization_organization.org_moid
   ]

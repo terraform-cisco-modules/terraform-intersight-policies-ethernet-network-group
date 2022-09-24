@@ -4,8 +4,7 @@
 #______________________________________________________________
 
 variable "allowed_vlans" {
-  default     = "1-2,4-5"
-  description = "List of VLAN's to Add to the VLAN Group Policy."
+  description = "List of VLAN's to Add to the VLAN Group Policy. i.e. '1-5,10-99'."
   type        = string
 }
 
