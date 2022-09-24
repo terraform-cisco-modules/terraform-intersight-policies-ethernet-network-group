@@ -3,8 +3,8 @@ module "ethernet_network_group_policy" {
   version = ">= 1.0.1"
 
   allowed_vlans = ["1-5,10-99"]
-  description      = "default Ethernet Network Group Policy."
-  name         = "default"
-  native_vlan = 1
-  organization = "default"
+  description   = "default Ethernet Network Group Policy."
+  name          = "default"
+  native_vlan   = 1
+  organization  = "default"
 }
