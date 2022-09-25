@@ -15,7 +15,7 @@ variable "description" {
 }
 
 variable "name" {
-  default     = "network_group"
+  default     = "default"
   description = "Name for the Policy."
   type        = string
 }
